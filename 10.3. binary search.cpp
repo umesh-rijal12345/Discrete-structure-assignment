@@ -9,7 +9,7 @@ void sort(int a[10],int size)
 		{
 			if(a[i]>a[j])
 			{
-				temp=a[i];
+				temp=a[j];
 				a[i]=a[j];
 				a[j]=temp;		
 			}
